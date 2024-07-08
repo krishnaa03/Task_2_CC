@@ -1,0 +1,7 @@
+let pop_song_left = document.getElementById('pop_song_left');
+let pop_song_right = document.getElementById('pop_song_right');
+let popsong = document.getElementsByClassName('popsong')[0];
+
+pop_song_right.addEventListener('click', () =>{
+    pop_song.scrollLeft +=330;
+})
